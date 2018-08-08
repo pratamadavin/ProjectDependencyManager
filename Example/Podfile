@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'ShakeIt_Example' do
+  pod 'ShakeIt', :path => '../'
+
+  target 'ShakeIt_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
